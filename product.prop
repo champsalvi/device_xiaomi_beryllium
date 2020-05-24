@@ -7,6 +7,12 @@ ro.adb.secure=0
 ro.secure=0
 ro.debuggable=1
 
+# Maintainer
+ro.xtended.maintainer=Deadpool1704
+
+#Version
+ro.xtended.display.version=XQ-UNOFFICIAL-Realease-v8.0
+
 # Face Unlock
 ro.face.moto_unlock_service.cam_id=5
 
