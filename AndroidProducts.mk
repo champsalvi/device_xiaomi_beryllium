@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_beryllium.mk
+    $(LOCAL_DIR)/revengeos_beryllium.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_beryllium-user \
-    superior_beryllium-userdebug \
-    superior_beryllium-eng
+    revengeos_beryllium-user \
+    revengeos_beryllium-userdebug \
+    revengeos_beryllium-eng
