@@ -7,6 +7,7 @@
 # Inherit from sdm845-common
 -include device/xiaomi/sdm845-common/BoardConfigCommon.mk
 
+BOARD_VENDOR := xiaomi
 DEVICE_PATH := device/xiaomi/beryllium
 
 # Assert
@@ -43,3 +44,6 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/beryllium/BoardConfigVendor.mk
+
+# Allow a device to manually override which HALs it wants to use
+OVERRIDE_QCOM_HARDWARE_VARIANT = sdm845
