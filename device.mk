@@ -22,7 +22,7 @@ PRODUCT_PACKAGES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-octavi
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
@@ -85,3 +85,6 @@ PRODUCT_COPY_FILES += \
 # PocketMode
 PRODUCT_PACKAGES += \
     XiaomiPocketMode
+
+# FACEUNLOCK
+    TARGET_FACE_UNLOCK_SUPPORTED := true
